@@ -13,6 +13,7 @@ public class Fenerbahce {
             System.out.println(sporcu.bilgiVer());
             System.out.println(sporcu.perform());
             // BURASI ZATEN GÖRDÜĞÜNÜZ ÜZERE PZT GÜNÜNÜN NEREDEYSE AYNISI BAKA BAKA KOPYALADIM.
+            // İNSTANCE OF = HANGİ SİNİFA AİT? anlamına getirmek icin kullanılan bir methottur.
             if (sporcu instanceof Kaleci) {
                 System.out.println(((Kaleci) sporcu).sutCek());
             }
@@ -26,7 +27,22 @@ public class Fenerbahce {
             System.out.println(); // çıktılar burdan cıkıcak.
             // 25 ekim cuma saat 03.25
             // hic kullanmadığım ve ismini dahi görünce bu ne dediğim /İNSTANCE OF,PROTECTED,
-            // classlarını kullanarak öğrendiğim ve az da olsa chatgptnin yardım ettiği bir proje oldu
+            // methodlarını kullanarak öğrendiğim ve az da olsa chatgptnin yardım ettiği bir proje oldu
+            // ayrıca parent child iliskisini derinlemesine anlamış oldum
+
+
+
+
+// EKSTRA EKLENEBİLENLER
+// Performans(nasıl?),daha fazla futbolcu(basit),
+// Calısma kadrosu adında bir class acıp hoca yı instanceof edip yanına ekstra olarak doktor ekleyebiliriz.
+// yardımcı antrenör ekleyebiliriz hocanın childi olur
+// bir yönetim kadrosu ekleyip en üste koyabiliriz ama parentler arası ve childlar arası o zinciri nasıl?
+// futbolcuyla hoca arasındaki iliskiyi kurdum ama mesela DOKTOR YÖNETİM KADROSUNDA OLUCAK FUTBOLCUYLA NASIL İLETİSİM ?
+// kondisyon,bazıları uzun süre kosabilirken bazıları hemen tıkanabilir(DZEKO?)
+// Oyuncu  değeri, ( kondisyon yas ve performansın toplamı sonucu bir ortalama değer? ama cok ütopik oldu)
+//
+
 
         }
     }

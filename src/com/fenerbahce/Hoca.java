@@ -20,13 +20,13 @@ public class Hoca implements Sporcu {
     }
 
     public String egit() {
-        return ad + " " + soyad + " oyuncuları eğitiyor.";
+        return ad + " " + soyad + " oyuncuları eğitiyor COK BÜYÜK HOCA.";
     } // HOCANIN DİĞER KALECİ FUTBOLCU VE SPORCU CLASSINDAN FARKI EĞİT OLARAK VERDİM FUTBOLCU VE KALECİ SPORCULARDA TABİKİ YOK
     // VE HOCALAR DA ESKİ SPORCU OLDUĞU İÇİN TABİİ Kİ İMPLEMENT YAPTIM TERCİH MESELESİ AYRI BİR İF BLOĞU YAZABİLİRİZ
     // AMA BUNU YAPARKEN FENERBAHCE MAİN CLASSINDA DA 2 AYRI METHOT YAZMAMIZ GEREKİR BU DA BENİM İÇİN KARIŞIK GELDİ
 
     @Override
     public String perform() {
-        return ad + " eğitim veriyor.";
-    } // JOSE MOURİNHOYA GÜVENİMİZ TAM.
+        return ad + " eğitim veriyor ve oyuncuları eğitiyor.";
+    }
 }
